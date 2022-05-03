@@ -22,10 +22,6 @@ header{
     justify-content: space-between;
 }
 
-h1{
-    display: flex;
-    align-items: center;
-}
 
 #logo{
     height: 72px;
@@ -71,7 +67,12 @@ h1{
 
 a{
     text-decoration: none;
-    color: black;
+    color: black; 
+}
+
+header a:hover{
+    color: #C0562A;
+    font-weight: 700;
 }
 
 .header-right-center{
