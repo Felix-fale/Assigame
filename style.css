@@ -41,9 +41,6 @@ header{
     font-weight: 700;
 }
 
-#icone-search{
-    padding-right: 8px;
-}
 
 .header-left{
     display: flex;
@@ -88,6 +85,15 @@ header a:hover{
 
 .header-dernier-div{
     margin: 0;
+}
+
+.add{
+    width: 224px;
+    height: 46px;
+    background: #85B940;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Balise h1 */
