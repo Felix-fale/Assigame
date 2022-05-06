@@ -209,9 +209,9 @@ select-categories::after{
 }
 
 #chevron{
-    position: fixed;
-    left: 580px;
-    top: 290px;
+    position: relative;
+    left: 163px;
+    bottom: 33px;
 }
 
 .box-deux{
@@ -293,4 +293,42 @@ select-categories::after{
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+/* 2em section */
+
+/* 1er bloc */
+
+.container-section_deux{
+    height: 911px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.background-categories{
+    width: 200px;
+    height: 31px;
+    background: rgba(0, 0, 0, 0.5);
+    filter: blur(12px);
+    border-radius: 0px 0px 7px 7px;
+    position: relative;
+    bottom: 45px;
+}
+
+.image-categories{
+    position: relative;
+}
+
+.les-categories{
+    position: relative;
+    right: 144px;
+    bottom: 11px;
+    color: white;
+
+}
+
+/* le conteneur des categories */
+
+#contaire-categorie{
+    display: flex;
 }
