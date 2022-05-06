@@ -47,10 +47,12 @@
                     <a href="#">Se connecter</a>
                 </div>
 
-                <div class="add">
-                    <div>
-                        <a href="#"><img src="icone/Add.png" alt="Ajouter">Déposer une annonce</a>
-                    </div>
+                <div class="header-add">
+
+                    <a class="icone-add" href="#"><img src="icone/Add.png" alt="Ajouter"></a>
+
+                    <a class="add" href="#">Déposer une annonce</a>
+
                 </div>
 
             </div>
@@ -59,23 +61,26 @@
     </header>
 
     <section>
-        <h1> Des milliers de petites annonces et autant d’occasions de se faire plaisir</h1>
+        <h1> VENDEZ ET ACHETEZ PRES DE CHEZ VOUS</h1>
 
         <div class="container-section-un">
             <div class="div-forulaire">
-                <div class="div-formulaire_ODF">
+                <div class="div-formulaire_ODF div-formulaire_O">
 
                     <span class="span-label">
-                        <input name="ch" class="class-input" type="radio" id="moment"> <label for="moment">
+                        <input name="ch" class="class-input" type="radio" id="moment">
+                        <label class="label-un" for="moment">
                             <div></div>
-                        </label> 
+                        </label>
                     </span>Offres
                 </div>
 
+
                 <div class="div-formulaire_ODF">
 
                     <span class="span-label">
-                        <input name="ch" class="class-input" type="radio" id="moment2"> <label for="moment2">
+                        <input name="ch" class="class-input" type="radio" id="moment2">
+                        <label class="label-un" for="moment2">
                             <div></div>
                         </label>
                     </span>Demandes
@@ -84,23 +89,69 @@
                 <div class="div-formulaire_ODF">
 
                     <span class="span-label">
-                        <input name="ch" class="class-input" type="radio" id="moment3"> <label for="moment3">
+                        <input name="ch" class="class-input" type="radio" id="moment3">
+                        <label class="label-un" for="moment3">
                             <div></div>
                         </label>
-                    </span> <span id="faire-un-don">Faire un don</span> 
+                    </span> <span id="faire-un-don">Faire un don</span>
                 </div>
 
             </div>
-        </div>
 
-        <div>
+            <!-- deuxieme partie de la premiere section -->
 
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="container-section-deux">
+
+                <!-- <form action="" method="post"> -->
+
+                <div class="box-un">
+                    <select class="select-categories" name="nom">
+                        <option value="1">Categories</option>
+                        <option value="2">Vacances</option>
+                        <option value="3">Vetements</option>
+                        <option value="4">Offres d'emplois</option>
+                        <option value="5">Ventes immo</option>
+                        <option value="6">Voitures</option>
+                    </select>
+                </div>
+
+                <img id="chevron" src="icone/Chevron Right.png" alt="Chevron">
+
+                <div class="box-deux"></div>
+
+                <div>
+                    <input class="box-trois_quatre " type="text" name="nom" placeholder="Que rechercher-vous ?" size="30px">
+                </div>
+
+                <div>
+                    <input class="box-trois_quatre box-quatre" type="text" name="nom" placeholder="Saisissez une ville et un rayon"
+                        size="30px">
+                </div>
+            </div>
             
+            <!--  Troisieme partie de la premiere section-->
+    
+            <div class="bouton-prix">Prix</div>
+    
+            <!--  4em partie de la premiere section-->
+
+            <div class="conteneur-bouton-on-off">
+                <div class="bouton-on_off">
+                    <div class="bouton-on_off_milieu">X</div>
+                </div>
+
+                <div>Voir également les annonces disponibles en livraison</div>
+
+                <div><img src="icone/Help.png" alt="Aide"></div>
+            </div>
+
+            <!--  5em partie de la premiere section-->
+
+            <div class="conteneur-bouton_recherche">Rechercher (17 000résultats)</div>
+
+            <!-- fin de la premiere section -->
         </div>
+
     </section>
 </body>
 
