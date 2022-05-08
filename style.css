@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+ul{
+    list-style-type: none;
+}
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -188,6 +192,7 @@ label div{
 }
 
 .select-categories{
+    position: relative;
     background-color: #F4F6F7;
     width: 216px;
     height: 44px;
@@ -208,10 +213,14 @@ select-categories::after{
     border-left-color: #010911;
 }
 
+.option-categories{
+    display: flex;
+}
+
 #chevron{
-    position: relative;
-    left: 163px;
-    bottom: 33px;
+    position: absolute;
+    right: 375px;
+    top: 282px;
 }
 
 .box-deux{
@@ -295,40 +304,306 @@ select-categories::after{
     align-items: center;
 }
 
-/* 2em section */
+/*                   2em section                */
 
-/* 1er bloc */
+.titre-categories{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #336699; 
+    padding-top: 55px;
+    margin-bottom: 40px;
+}
+
+.section_deux{
+    width: 100%;
+    height: 911px;  
+    background: #FFFFFF;
+    margin-top: 100px;
+}
 
 .container-section_deux{
-    height: 911px;
-    width: 100%;
-    background: #FFFFFF;
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 98px;
 }
 
-.background-categories{
-    width: 200px;
-    height: 31px;
-    background: rgba(0, 0, 0, 0.5);
-    filter: blur(12px);
-    border-radius: 0px 0px 7px 7px;
-    position: relative;
-    bottom: 45px;
-}
+/* 1er bloc conteneur section deux*/
 
-.image-categories{
-    position: relative;
-}
-
-.les-categories{
-    position: relative;
-    right: 144px;
-    bottom: 11px;
-    color: white;
-
-}
-
-/* le conteneur des categories */
-
-#contaire-categorie{
+.ul-top-categorie{
     display: flex;
+    justify-content: space-between;
+}
+
+.text-top-categorie{
+    position: relative;
+    bottom: 27px;
+    text-align: center;
+    background: #00000080;
+    border-radius: 0px 0px 7px 7px;
+    color: white;
+}
+
+/* 2em bloc conteneur section deux*/
+
+.titre-rejoindre-communaute{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    position: relative;
+    bottom: 60px;
+}
+
+.titre-bleu-rejoindre-communaute{
+    color: #336699
+    ;
+}
+
+.rectangle-blanc{
+    position: relative;
+    width: 489px;
+    height: 221px;
+    background: #FEF0E9;
+    border-radius: 8px;
+    bottom: 230px;
+    left: 4px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 32px 64px 39px 38px;
+}
+
+.rectangle-blanc-bold{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.rectangle-blanc_container-text{
+    adding: 32px 64px 39px 38px;
+    width: 386px;
+    height: 103px;
+}
+
+/* Bouton deposer une annonce */
+
+#Déposer-une-annonce{
+    width: 235px;
+    height: 44px;
+    background: #85B940;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+/* Pour appliquer des marges auto */
+
+.marging-auto{
+    margin: 0 auto;
+    width: 1180px;
+}
+
+/* Conteneur du bloc communauté */
+
+.container-communaute{
+    margin-bottom: 80px;
+}
+
+.text-avec_assigame{
+    position: relative;
+    bottom: 240px;
+}
+
+/* troisieme section */
+
+.section-trois{
+
+}
+
+.container-section_trois{
+    width: 100%;
+    height: 567px;
+    background: rgba(51, 102, 153, 0.15);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+#avis{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px; 
+    color: #336699;
+    text-align: center;
+    padding: 32px 0 17px 0;
+}
+
+.bouton-donner-avis{
+    position: relative;
+    width: 236px;
+    height: 37px;
+    background: #85B940;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1000px;
+    bottom: 40px;
+}
+
+.text-avis-pertinant{
+    margin-left:60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    position: relative;
+    bottom: 48px;
+}
+
+/* les commentaires  */
+
+.bock-bul_commentaire{
+    position: relative;
+    margin: 22px  0 0 60px;
+}
+
+.bul{
+    width: 428px;
+    height: 73px;
+    left: 207px;
+    top: 1641px;
+    
+    background: #FAFAFA;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 25px 0px;
+}
+
+.bul-commentaire{
+    position: relative;
+    width: 364px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    bottom: 67px;
+    left: 30px;
+}
+
+.nom-bul{
+    position: relative;
+    left: 70px;
+    bottom: 59px;
+    height: 45px;
+}
+
+.nom{
+    width: 119px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;   
+    color: #336699;
+    margin-bottom: 10px;
+}
+
+/* deuxieme bul commentaire */
+
+.bul-deux{
+    width: 279px;
+    height: 73px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 25px 0px;
+}
+
+.bul-commentaire-deux{
+    position: relative;
+    width: 215px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    bottom: 67px;
+    left: 30px;
+}
+
+/* Troisieme bul commentaire */
+
+.bul-commentaire-trois{
+    position: relative;
+    width: 314px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    text-align: justify;
+    bottom: 67px;
+    left: 30px;
+}
+
+.bul-trois{
+    width: 378px;
+    height: 73px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 25px 0px;
+}
+
+/* grand-bock-bul_commentaire pour deplacer le contenu vers le haut */
+
+.grand-bock-bul_commentaire{
+    position: relative;
+    bottom: 48px;
+}
+
+/* grand conteneur pour le flex */
+
+#container-bock-bul_commentaire{
+    display: flex;
+}
+
+#img-avis{
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+}
+
+/* bouton lire tous les avis */
+
+#lire-avis{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 39px;
+    
+}
+
+#lien-avis{
+    width: 162px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ED3B3B;
+}
+
+/*      4em section       */
+
+.contenaire-nos_partenaires{
+    width: 100%;
+    height: 361px;
+    left: 0px;
+    top: 2044px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
 }
