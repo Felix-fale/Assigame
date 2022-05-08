@@ -664,3 +664,25 @@ select-categories::after{
     border-radius: 6px;
     margin: 0 auto;
 }
+
+.contactez-nous-title_un{
+    width: 229px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.contactez-nous-title_deux{
+    width: 271px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center; 
+    color: #336699;
+    position: relative;
+    top: 23px;
+    margin: 0 auto;
+}
