@@ -607,3 +607,60 @@ select-categories::after{
     background: #FFFFFF;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
 }
+
+.title-nos-partenaires{
+    width: 202px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #336699;
+    margin: 0 auto;
+    padding: 63px 0 57px 0;
+}
+
+.logo-partenaires{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-cercle_or{
+    margin-left: 60px;
+    position: relative;
+    bottom: 20px;
+}
+
+#logo-ecobank{
+    margin-right: 60px;
+}
+
+/*           5em  section          */
+
+.container-localisation{
+    width: 100%;
+    height: 627px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+}
+
+#title-localisation{
+    width: 151px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: #336699;
+    padding: 57px 0 54px 0;
+    margin: 0 auto;
+}
+
+/*            6em section           */
+
+.container-contactez-nous{
+    width: 753px;
+    height: 508px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 0 auto;
+}
