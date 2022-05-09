@@ -293,6 +293,7 @@ select-categories::after{
 }
 
 .conteneur-bouton_recherche{
+    position: relative;
     width: 236px;
     height: 45px;
     background: #85B940;
@@ -302,6 +303,7 @@ select-categories::after{
     margin: auto;
     display: flex;
     align-items: center;
+    top: 3px;
 }
 
 /*                   2em section                */
@@ -651,6 +653,14 @@ select-categories::after{
     line-height: 35px;
     color: #336699;
     padding: 57px 0 54px 0;
+    margin: 0 auto;
+}
+
+.carte-maps{
+    position: relative;
+    top: 22px;
+    width: 1000px;
+    height: 430px;
     margin: 0 auto;
 }
 
