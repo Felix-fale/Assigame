@@ -663,6 +663,8 @@ select-categories::after{
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin: 0 auto;
+    padding: 0 28px;
+    margin-bottom: 67px;
 }
 
 .contactez-nous-title_un{
@@ -685,4 +687,123 @@ select-categories::after{
     position: relative;
     top: 23px;
     margin: 0 auto;
+}
+
+          /*          formulaire         */
+
+          
+
+.container-formulaire{
+    position: relative;
+    top: 59px;
+}
+
+.form-nom_mail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field{
+    position: relative;
+    height: 80px;
+    width: 303px;
+    padding: 16px 0 8px 0;
+    margin-bottom: 15px;
+}
+
+.field-trois{
+    position: relative;
+    height: 130px;
+    width: 100%;
+    padding: 16px 0 57px 0;
+}
+
+.field-label{
+    /* position relative */
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #A8B4C0;
+    display: block;
+
+    /* chercher les transform aussi . Mais en attendent j'ai qu'il a ramener le label en bas */
+    transform: translateY(24px);
+}
+
+.field-input{
+    /* position relative */
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    line-height: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.field::after{
+    /* faire des recherches sur les pseudo elements */
+
+    /* a chercher ( content) */
+
+    content: '';  
+    height: 2px;
+    width: 100%;
+    /* les positinnement aussi a chercher */
+    position: absolute;
+
+    /* on peut ne pas mettre de bottom cela fonctionne aussi, la je veux juste apprendre. 
+    
+    essayer aussi de voir comment je peux je peut faire meme chose via (border) */
+    bottom: 30px;
+    background-color: #85B940;
+    ;
+}
+
+.field-trois::after{
+    /* faire des recherches sur les pseudo elements */
+
+    /* a chercher ( content) */
+
+    content: '';  
+    height: 2px;
+    width: 100%;
+    /* les positinnement aussi a chercher */
+    position: absolute;
+
+    /* on peut ne pas mettre de bottom cela fonctionne aussi, la je veux juste apprendre. 
+    
+    essayer aussi de voir comment je peux je peut faire meme chose via (border) */
+    bottom: 30px;
+    background-color: #85B940;
+    ;
+}
+
+placeholder{
+    /* position relative */
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #A8B4C0;
+    display: block;
+
+    /* chercher les transform aussi . Mais en attendent j'ai qu'il a ramener le label en bas */
+    transform: translateY(24px);
+}
+
+.bouton-envoyer{
+    position: relative;
+    width: 154px;
+    height: 46px;
+    background: #85B940;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 79px;
 }
