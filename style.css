@@ -218,9 +218,9 @@ select-categories::after{
 }
 
 #chevron{
-    position: absolute;
-    right: 375px;
-    top: 282px;
+    position: relative;
+    bottom: 35px;
+    left: 150px;
 }
 
 .box-deux{
@@ -237,6 +237,7 @@ select-categories::after{
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
     border-radius: 0px 5px 5px 0px;
     margin-right: 76px;
+    padding-left: 40px;
 }
 
 .box-quatre{
@@ -255,6 +256,7 @@ select-categories::after{
 /* niveau trois de la section deux */
 
 .bouton-prix{
+    position: relative;
     box-sizing: border-box;
     width: 65px;
     height: 36px;
@@ -264,15 +266,18 @@ select-categories::after{
     text-align: center;
     padding-top: 5px;
     margin: 13px 0 0 65px;
+    bottom: 35px;
 }
 
 /* niveau 4 de la section deux */
 .bouton-on_off{
+    position: relative;
     width: 47px;
     height: 30px;
     background: #A8B4C0;
     border-radius: 15px 13px 13px 15px;
     margin-right: 17px;
+    bottom: 37px;
 }
 
 .bouton-on_off_milieu{
@@ -303,7 +308,13 @@ select-categories::after{
     margin: auto;
     display: flex;
     align-items: center;
-    top: 3px;
+    justify-content: center;
+    bottom: 30px;
+}
+
+.voir-egalement{
+    position: relative;
+    bottom: 40px;
 }
 
 /*                   2em section                */
@@ -429,11 +440,12 @@ select-categories::after{
 }
 
 .container-section_trois{
-    width: 100%;
+    width: 1180px;
     height: 567px;
     background: rgba(51, 102, 153, 0.15);
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
+    margin: 0 auto;
 }
 
 #avis{
@@ -455,7 +467,7 @@ select-categories::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1000px;
+    margin-left: 890px;
     bottom: 40px;
 }
 
@@ -601,13 +613,13 @@ select-categories::after{
 /*      4em section       */
 
 .contenaire-nos_partenaires{
-    width: 100%;
+    width: 1180px;
     height: 361px;
     left: 0px;
     top: 2044px;
-    
-    background: #FFFFFF;
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    ackground: #FFFFFF;
+    ox-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
 .title-nos-partenaires{
@@ -816,4 +828,70 @@ placeholder{
     justify-content: center;
     margin: 0 auto;
     top: 79px;
+}
+
+
+/*          7em section           */
+
+.bloc-footer{
+    width: 100%;
+    height: 432px;
+    background: #336699;
+    padding: 23px 60px 19px 60px;
+    display: flex;
+}
+
+/*       1ER BLOCK         */
+
+/* 1er sous bloc a propos */
+
+.bloc-footer_un_un{
+    width: 241px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.title-footer{
+    width: 241px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+
+/*            2em sous bloc    a propos       */
+
+.bloc-footer_un_deux{
+    width: 236px;
+    height: 163px;
+    color: #FFFFFF;
+}
+
+hr{
+    background-color: white;
+}
+
+#footer-logo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-ecobank{
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+
+/*         deuxieme bloc(grand)            */
+
+.bloc-footer_deux{
+    
 }
