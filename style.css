@@ -833,12 +833,27 @@ placeholder{
 
 /*          7em section           */
 
+section-sept{
+    height: 432px;
+    min-width: 100%;
+    background-color: #336699;
+}
+
 .bloc-footer{
     width: 100%;
     height: 432px;
-    background: #336699;
-    padding: 23px 60px 19px 60px;
+    background-color: #336699;
+    
+    position: absolute;
+}
+
+.bloc-footer_global-un{
+    padding: 23px 0px 19px 0px;
     display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 350px;
+    margin: 0 auto;
 }
 
 /*       1ER BLOCK         */
@@ -893,5 +908,68 @@ hr{
 /*         deuxieme bloc(grand)            */
 
 .bloc-footer_deux{
+    position: relative;
+    bottom: 3px;
+    display: block;
     
+}
+
+.bloc-footer_deux_detail{
+    width: 283px;
+    height: 265px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+/*          3em bloc (grand)           */
+
+
+.bloc-footer_trois{
+    width: 283px;
+    height: 281px;
+    position: relative;
+    bottom: 3px;
+    display: block;
+}
+
+/*          4em bloc (grand)           */
+
+.bloc-footer_quatre{
+    position: relative;
+    bottom: 3px;
+    display: block;
+    height: 200px;
+}
+
+/*             2em partie footer         */
+
+.bloc-footer_global-deux{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    padding: 0 60px;
+    color: white;
+}
+
+.bloc-footer_global-deux_deux{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Retrouvez-nous-sur{
+    margin-top: 15px;
+}
+
+.dernier-hr{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/* styliser less liens (a) */
+
+.bloc-footer_global-un a{
+    color: white;
 }
