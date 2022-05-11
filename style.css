@@ -446,6 +446,10 @@ input:checked + .slider::before{
     margin-top: 100px;
 }
 
+.main-carousel{
+    display: block;
+}
+
 .container-section_deux{
     width: 1180px;
     margin: 0 auto;
@@ -455,7 +459,7 @@ input:checked + .slider::before{
 /* 1er bloc conteneur section deux*/
 
 .ul-top-categorie{
-    display: flex;
+    isplay: flex;
     justify-content: space-between;
 }
 
