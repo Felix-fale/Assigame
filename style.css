@@ -322,6 +322,10 @@ form.example::after {
 
 /* bouton prix */
 
+.container-bouton-prix_on-off{
+    display: flex;
+}
+
 .bouton-prix{
     position: relative;
     box-sizing: border-box;
@@ -420,8 +424,8 @@ input:checked + .slider::before{
 .voir-egalement{
     position: relative;
     display: flex;
-    bottom: 60px;
-    left: 135px;
+    bottom: 57px;
+    padding-left: 125px;
 }
 
 /*                   2em section                */
