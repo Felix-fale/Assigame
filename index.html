@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -102,10 +103,9 @@
 
             <div class="container-section-deux">
 
-                <!-- <form action="" method="post"> -->
+            <!-- <form action="" method="post"> -->
 
-
-                <div>
+                <div class="container-categorie">
                     <div class="box-un">
                         <select class="select-categories" name="nom">
                             <option value="1">Categories</option>
@@ -117,42 +117,69 @@
                         </select>
                     </div>
 
-                    <img id="chevron" src="icone/Chevron Right.png" alt="Chevron">
+                    <img id="bulleted" src="icone/Bulleted List.png" alt="">
                 </div>
+
 
 
                 <div class="box-deux"></div>
 
-                <div>
-                    <input class="box-trois_quatre " type="text" name="nom" placeholder="Que rechercher-vous ?"
-                        size="30px">
+                <div class="search-bar">
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Que recherchez-vous ?" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
                 </div>
 
-                <div>
-                    <input class="box-trois_quatre box-quatre" type="text" name="nom"
-                        placeholder="Saisissez une ville et un rayon" size="30px">
+                <div class="place-marker">
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Saisissez une ville et un rayon" name="search">
+                        <button type="submit"><img src="icone/Place Marker.png" alt=""></button>
+                    </form>
                 </div>
+
             </div>
+
 
             <!--  Troisieme partie de la premiere section-->
 
-            <div class="bouton-prix">Prix</div>
+            <div class="bouton-prix">
+                <a href="#">Prix</a>
+            </div>
+
+            
 
             <!--  4em partie de la premiere section-->
 
             <div class="conteneur-bouton-on-off">
-                <div class="bouton-on_off">
+                <!-- <div class="bouton-on_off">
                     <div class="bouton-on_off_milieu">X</div>
+                </div> -->
+
+                <div class="bouton-on_off">
+
+                    <label class="switch">
+                        <input type="checkbox">
+                            <span class="slider"></span>
+                    </label>
+            
                 </div>
 
-                <div class="voir-egalement">Voir également les annonces disponibles en livraison</div>
+                <div class="voir-egalement">
 
-                <div class="voir-egalement"><img src="icone/Help.png" alt="Aide"></div>
+                    <div >Voir également les annonces disponibles en livraison</div>
+    
+                    <div ><img src="icone/Help.png" alt="Aide"></div>
+
+                </div>
+                
             </div>
 
             <!--  5em partie de la premiere section-->
 
-            <div class="conteneur-bouton_recherche">Rechercher (17 000résultats)</div>
+            <div class="conteneur-bouton_recherche">
+                <a href="#">Rechercher (17 000résultats)</a> 
+            </div>
 
             <!-- fin de la premiere section -->
         </div>

@@ -196,48 +196,113 @@ label div{
     background-color: #F4F6F7;
     width: 216px;
     height: 44px;
-    padding: 0 25px 0 32px;
+    padding: 0 25px 0 55px;
     border: none;
     outline: none;
     cursor: pointer;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
     border-radius: 5px 0px 0px 5px;
-    appearance: none;
+    /* appearance: none; */
 }
 
-select-categories::after{
+option{
+    position: relative;
+    left: 100px;
+}
+
+/* select-categories::after{
     content: '\25BC'
     border-width: 10px;
     border-style: solid;
     border-color: transparent;
     border-left-color: #010911;
-}
+} */
 
 .option-categories{
     display: flex;
 }
 
-#chevron{
+#bulleted{
     position: relative;
-    bottom: 35px;
+    bottom: 40px;
+    left: 10px;
+}
+
+/* #chevron{
+    position: relative;
+    bottom: 48px;
     left: 150px;
+} */
+
+.container-categorie{
+    position: relative;
+    right: 46px;
+    bottom: 5px;
 }
 
 .box-deux{
+    position: relative;
     width: 1px;
     height: 44px;
     background: #8197B3;
+    right: 46px;
+    bottom: 5px;
+}
+
+/*        search bar and position bar       */
+
+*{box-sizing: border-box;
+}
+
+.search-bar{
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0px solid grey;
+  width: 292px;
+  height: 45px;
+  background: #F4F6F7;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px 5px 0px;
+}
+
+form.example button {
+  float: left;
+  width: 50px;
+  height: 45px;
+  color: #A8B4C0;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background: #F4F6F7;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*             place-marker         */
+
+.place-marker{
+    margin-left: 55px;
+    position: relative;
+    right: 46px;
+    bottom: 5px;
 }
 
 .box-trois_quatre{
-    width: 354px;
-    height: 44px;
-    border: none;
-    background: #F4F6F7;
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 5px 5px 0px;
-    margin-right: 76px;
-    padding-left: 40px;
+
 }
 
 .box-quatre{
@@ -255,6 +320,8 @@ select-categories::after{
 
 /* niveau trois de la section deux */
 
+/* bouton prix */
+
 .bouton-prix{
     position: relative;
     box-sizing: border-box;
@@ -265,39 +332,77 @@ select-categories::after{
     border-radius: 16px;
     text-align: center;
     padding-top: 5px;
-    margin: 13px 0 0 65px;
-    bottom: 35px;
+    bottom: 33px;
+    left: 66px;
+}
+
+.bouton-prix:hover{
+    background-color: #336699;
+    /* color: rgb(176, 20, 20); */
 }
 
 /* niveau 4 de la section deux */
 .bouton-on_off{
     position: relative;
+    left: 88px; 
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.switch{
+    position: relative;
+    display: inline-block;
     width: 47px;
     height: 30px;
-    background: #A8B4C0;
-    border-radius: 15px 13px 13px 15px;
-    margin-right: 17px;
-    bottom: 37px;
+    margin: 0 10px;
 }
 
-.bouton-on_off_milieu{
-    width: 30px;
-    height: 30px;
-    background: #FFFFFF;
-    border: 1px solid #A8B4C0;
-    border-radius: 50%;
-    color: #A8B4C0;
-    text-align: center;
-    padding-top: 3px;
+.slider{
+    position: absolute;
+    cursor:pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
 }
+
+.switch input{
+    display: none;
+}
+
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    left: 1px;
+    bottom: px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+    border: 1px solid rgba(1, 8, 16, 0.4);
+}
+
+input:checked + .slider{
+    background-color: #336699;
+}
+
+input:checked + .slider::before{
+    transform: translate(17px);
+}
+
+/* ......................... */
 
 .conteneur-bouton-on-off{
-    display: flex;
-    align-items: center;
-    margin: 8px 0 0 65px;
+    position: relative;
+    
 }
 
-.conteneur-bouton_recherche{
+.conteneur-bouton_recherche a{
     position: relative;
     width: 236px;
     height: 45px;
@@ -309,12 +414,14 @@ select-categories::after{
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 30px;
+    bottom: 53px;
 }
 
 .voir-egalement{
     position: relative;
-    bottom: 40px;
+    display: flex;
+    bottom: 60px;
+    left: 135px;
 }
 
 /*                   2em section                */
