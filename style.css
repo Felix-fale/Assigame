@@ -1112,14 +1112,194 @@ hr{
 @media screen and (max-width: 821px ) {
     #logo{
         width: 100px;
+        height: 60px;
+        
+    }
 
+    header{
+        height: 60px;
+        padding: 0 10%;
+    }
+
+    .header-right-center{
+        display: none;
     }
 
     .header-right-center img{
         display: none;
     }
+
+    .header-add{
+        
+    }
+
+    h1{
+        margin: 10px 0;
+    }
 }
 
+
 @media screen and (max-width: 426px ) {
-    
+    header{
+        height: 60px;
+        padding: 0 6%;
+    }
+
+    .div-forulaire{
+        display: none;
+    }
+
+    .div-forulaire {
+        display: none;
+    }
+
+    .bouton-prix, 
+    element.style {
+    }
+    #img-avis img{
+        display: none;
+    }
+
+    .voir-egalement, .conteneur-bouton_recherche a, .bouton-on_off{
+        display: none;
+    }
+
+    .container-section-deux{
+        display: block;
+    }
+
+    .select-categories{
+        margin: 22px 69px;
+        width: 377px;
+        height: 45px;
+    }
+
+    .search-bar{
+        left: 42px;
+        bottom: 83px;
+    }
+
+    .place-marker{
+        right: 12px;
+        bottom: 50px;
+    }
+
+    .section_deux {
+        width: 100%;
+        height: 911px;
+        margin-top: 31px;
+    }
+
+    .titre-categories {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        color: #336699;
+        padding-top: 11px;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    .rectangle-blanc {
+        position: relative;
+        max-width: 489px;
+        height: 243px;
+        bottom: 245px;
+        left: 0px;
+        line-height: 20px;
+        text-align: justify;
+        padding: 32px 64px 39px 38px;}
+
+        #Déposer-une-annonce {
+            width: 235px;
+            height: 44px;
+            margin-top: 28px;
+            margin-left: 57px;
+        }
+
+        .text-avec_assigame {
+            position: relative;
+            text-align: justify;
+            bottom: 308px;
+            padding: 0 18px;
+        }
+
+        .section_deux {
+            height: 782px;
+        }
+
+        #avis {
+            padding: 9px 0 17px 0;
+        }
+
+        .bul {
+            width: 278px;
+        }
+
+        .bul-commentaire {
+            width: 210px;
+            font-size: 12px;
+            bottom: 70px;
+        }
+
+        .bul-trois{
+            width: 278px;
+        }
+
+        .bul-commentaire-trois {
+            width: 210px;
+            font-size: 12px;
+            bottom: 70px;
+        }
+
+        .container-section_trois{
+            height: 532px;
+        }
+
+        #lien-avis {
+            position: relative;
+            top: 12px;
+        }
+
+        .title-nos-partenaires {
+            padding: 35px 0 70px 0;
+            margin-left: 106px;
+        }
+
+        .none{display: none;}
+
+        .logo-partenaires{
+            display: block;
+        }
+
+        #logo-cercle_or {
+            margin-left: 32px;
+            position: relative;
+            bottom: 20px;
+        }
+
+        .image-deux{
+            position: relative;
+            bottom: 43px;
+            left: 35px;
+        }
+
+        .contenaire-nos_partenaires {
+            width: 100%;
+            height: 290px;
+        }
+
+        #title-localisation {
+            padding: 23px 0 33px 0;
+        }
+
+        .carte-maps{
+            max-width: 350px;
+        }
+
+        .container-contactez-nous {
+            width: 376px;
+            height: 508px;
+        }
+
 }
