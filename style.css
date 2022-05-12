@@ -1062,22 +1062,22 @@ hr{
 .bloc-footer_global-deux{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     margin-top: 15px;
+    max-width: 1180px;
     align-items: center;
-    padding: 0 60px;
+    padding: 0;
     color: white;
 }
 
 .bloc-footer_global-deux_un{
     position: relative;
-    left: 470px;
 }
 
 .bloc-footer_global-deux_deux{
     display: flex;
     justify-content: space-between;
     position: relative;
-    right: 470px;
 }
 
 .Retrouvez-nous-sur{
