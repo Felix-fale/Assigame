@@ -1141,7 +1141,7 @@ hr{
 
 @media screen and (max-width: 426px ) {
     header{
-        height: 60px;
+        max-height: 60px;
         padding: 0 6%;
     }
 
@@ -1328,7 +1328,10 @@ hr{
             margin: 0 auto;
         }
 
-
-
-
+        .bouton-prix{
+            display: none;
+        }
 }
+
+
+
