@@ -1302,4 +1302,33 @@ hr{
             height: 508px;
         }
 
+        .bloc-footer_un_trois_quatre, .bloc-footer_global-deux_un {
+            display: none;
+        }
+
+        .bloc-footer_global-deux_un{
+            font-size: 10px;
+        }
+
+        .bloc-footer_global-deux_deux{
+
+        }
+
+        .bloc-footer_deux {
+            left: 80px;
+        }
+
+        .Retrouvez-nous-sur {
+            margin: 0 45px;
+            margin-top: 15px;
+        }
+
+        .dernier-hr {
+            width: 423px;
+            margin: 0 auto;
+        }
+
+
+
+
 }
