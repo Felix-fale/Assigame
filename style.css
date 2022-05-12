@@ -24,7 +24,7 @@ header{
 
 .header-main{
     margin: 0 auto;
-    width: 1180px;
+    max-width: 1180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -126,7 +126,7 @@ h1{
 /* Premiere partie de la section un */
 
 .container-section-un{
-    width: 1180px;
+    max-width: 1180px;
     height: 233px;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
@@ -346,6 +346,12 @@ form.example::after {
 }
 
 /* niveau 4 de la section deux */
+
+.ul-top-categorie li{
+    margin-right: 10px;
+}
+
+
 .bouton-on_off{
     position: relative;
     left: 88px; 
@@ -446,12 +452,12 @@ input:checked + .slider::before{
     margin-top: 100px;
 }
 
-.main-carousel{
-    display: block;
-}
+/* .main-carousel{
+    isplay: block;
+} */
 
 .container-section_deux{
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
     margin-bottom: 98px;
 }
@@ -478,6 +484,7 @@ input:checked + .slider::before{
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
+    max-width: 1100px;
     position: relative;
     bottom: 60px;
 }
@@ -487,9 +494,13 @@ input:checked + .slider::before{
     ;
 }
 
+.image-communaute{
+    max-width: 100%;
+}
+
 .rectangle-blanc{
     position: relative;
-    width: 489px;
+    max-width: 489px;
     height: 221px;
     background: #FEF0E9;
     border-radius: 8px;
@@ -534,7 +545,7 @@ input:checked + .slider::before{
 
 .marging-auto{
     margin: 0 auto;
-    width: 1180px;
+    max-width: 1180px;
 }
 
 /* Conteneur du bloc communauté */
@@ -545,6 +556,7 @@ input:checked + .slider::before{
 
 .text-avec_assigame{
     position: relative;
+    text-align: justify;
     bottom: 240px;
 }
 
@@ -555,7 +567,7 @@ input:checked + .slider::before{
 }
 
 .container-section_trois{
-    width: 1180px;
+    max-width: 1180px;
     height: 567px;
     background: rgba(51, 102, 153, 0.15);
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
@@ -603,8 +615,8 @@ input:checked + .slider::before{
 }
 
 .bul{
-    width: 428px;
-    height: 73px;
+    max-width: 428px;
+    min-height: 73px;
     left: 207px;
     top: 1641px;
     
@@ -615,7 +627,7 @@ input:checked + .slider::before{
 
 .bul-commentaire{
     position: relative;
-    width: 364px;
+    max-width: 364px;
     height: 70px;
     font-style: normal;
     font-weight: 400;
@@ -645,7 +657,7 @@ input:checked + .slider::before{
 /* deuxieme bul commentaire */
 
 .bul-deux{
-    width: 279px;
+    max-width: 279px;
     height: 73px;
     background: #FAFAFA;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
@@ -654,7 +666,7 @@ input:checked + .slider::before{
 
 .bul-commentaire-deux{
     position: relative;
-    width: 215px;
+    max-width: 215px;
     height: 70px;
     font-weight: 400;
     font-size: 15px;
@@ -668,7 +680,7 @@ input:checked + .slider::before{
 
 .bul-commentaire-trois{
     position: relative;
-    width: 314px;
+    max-width: 314px;
     height: 70px;
     font-style: normal;
     font-weight: 400;
@@ -680,7 +692,7 @@ input:checked + .slider::before{
 }
 
 .bul-trois{
-    width: 378px;
+    max-width: 378px;
     height: 73px;
     background: #FAFAFA;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
@@ -704,6 +716,7 @@ input:checked + .slider::before{
     position: relative;
     left: 100px;
     bottom: 60px;
+    max-width: 553px;
 }
 
 /* bouton lire tous les avis */
@@ -1062,6 +1075,7 @@ hr{
 .bloc-footer_global-deux{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 15px;
     max-width: 1180px;
@@ -1093,4 +1107,19 @@ hr{
 
 .bloc-footer_global-un a{
     color: white;
+}
+
+@media screen and (max-width: 821px ) {
+    #logo{
+        width: 100px;
+
+    }
+
+    .header-right-center img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px ) {
+    
 }
