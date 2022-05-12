@@ -121,7 +121,22 @@ h1{
     margin: 26px 0;
     color: #336699;
     margin: 48px 0;
+
 }
+
+h1 {
+
+    color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
 
 /* Premiere partie de la section un */
 
