@@ -630,7 +630,7 @@ input:checked + .slider::before{
 }
 
 .bul{
-    max-width: 428px;
+    width: 418px;
     min-height: 73px;
     left: 207px;
     top: 1641px;
