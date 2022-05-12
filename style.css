@@ -128,7 +128,7 @@ h1 {
 
     color: #336699;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 10s;
   }
   
   @keyframes example {
