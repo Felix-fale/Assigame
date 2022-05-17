@@ -14,6 +14,8 @@ ul{
 body{
     background-color: #FAFAFA;
     font-family: 'Open Sans', sans-serif;
+    
+    
 }
 
 header{
@@ -456,13 +458,13 @@ input:checked + .slider::before{
     font-weight: 600;
     font-size: 26px;
     color: #336699; 
-    padding-top: 55px;
+    padding-top: 40px;
     margin-bottom: 40px;
 }
 
 .section_deux{
     width: 100%;
-    height: 911px;  
+    height: 877px;  
     background: #FFFFFF;
     margin-top: 100px;
 }
@@ -509,8 +511,9 @@ input:checked + .slider::before{
     ;
 }
 
-.image-communaute{
+.image-communaute {
     max-width: 100%;
+    height: 229px;
 }
 
 .rectangle-blanc{
@@ -558,7 +561,7 @@ input:checked + .slider::before{
 
 /* Pour appliquer des marges auto */
 
-.marging-auto{
+.container-texte-passionner{
     margin: 0 auto;
     max-width: 1180px;
 }
@@ -567,12 +570,16 @@ input:checked + .slider::before{
 
 .container-communaute{
     margin-bottom: 80px;
+    margin: 0 auto;
+    max-width: 1180px;
 }
 
 .text-avec_assigame{
     position: relative;
     text-align: justify;
-    bottom: 240px;
+    bottom: 152px;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 /* troisieme section */
@@ -601,7 +608,7 @@ input:checked + .slider::before{
 
 .bouton-donner-avis{
     position: relative;
-    width: 236px;
+    max-width: 236px;
     height: 37px;
     background: #85B940;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
@@ -609,7 +616,7 @@ input:checked + .slider::before{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 890px;
+    margin-left: 75%;
     bottom: 40px;
 }
 
@@ -734,6 +741,10 @@ input:checked + .slider::before{
     max-width: 553px;
 }
 
+.image-avis{
+    width: 100%;
+}
+
 /* bouton lire tous les avis */
 
 #lire-avis{
@@ -745,18 +756,20 @@ input:checked + .slider::before{
 }
 
 #lien-avis{
+    position: relative;
     width: 162px;
     height: 23px;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     color: #ED3B3B;
+    top: 21px;
 }
 
 /*      4em section       */
 
 .contenaire-nos_partenaires{
-    width: 1180px;
+    max-width: 1180px;
     height: 361px;
     left: 0px;
     top: 2044px;
@@ -765,29 +778,32 @@ input:checked + .slider::before{
     ox-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
-.title-nos-partenaires{
+.title-nos-partenaires {
     width: 202px;
     height: 35px;
     font-weight: 600;
     font-size: 26px;
     color: #336699;
     margin: 0 auto;
-    padding: 63px 0 57px 0;
+    padding: 64px 0 57px 0;
+    position: relative;
+    bottom: 15px;
 }
 
 .logo-partenaires{
     display: flex;
     justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.img-partenaire{
+    max-width: 100%;
 }
 
 #logo-cercle_or{
-    margin-left: 60px;
     position: relative;
     bottom: 20px;
-}
-
-#logo-ecobank{
-    margin-right: 60px;
 }
 
 /*           5em  section          */
@@ -822,7 +838,7 @@ input:checked + .slider::before{
 /*            6em section           */
 
 .container-contactez-nous{
-    width: 753px;
+    max-width: 753px;
     height: 508px;
     background: #FFFFFF;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
@@ -871,7 +887,7 @@ input:checked + .slider::before{
 .field{
     position: relative;
     height: 80px;
-    width: 303px;
+    width: 152px;
     padding: 16px 0 8px 0;
     margin-bottom: 15px;
 }
@@ -993,7 +1009,7 @@ section-sept{
     padding: 23px 0px 19px 0px;
     display: flex;
     justify-content: space-between;
-    width: 1180px;
+    max-width: 1180px;
     height: 350px;
     margin: 0 auto;
 }
@@ -1114,7 +1130,7 @@ hr{
 }
 
 .dernier-hr{
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -1123,6 +1139,92 @@ hr{
 .bloc-footer_global-un a{
     color: white;
 }
+
+
+
+/*         partie responsivité      */
+
+@media screen and (max-width: 1185px ) {
+    .header-main{
+        padding: 0 21px;
+    }
+
+}
+
+@media screen and (max-width: 1162px ) {
+    #img-avis {
+        left: 100px;
+        top: 43px;
+        max-width: 260px;
+    }
+
+    .carte-maps{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1036px ) {
+    .select-categories{
+        display: none;
+    }
+
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux, .bloc-footer_quatre{
+        display: none;
+    }
+
+    .conteneur-bouton_recherche a {
+        /* bottom: 3px; */
+        top: 45px;
+    }
+
+    .container-section-deux {
+        position: relative;
+        top: 20px;
+    }
+
+    .header-right-center, .bloc-footer_trois, .bouton-donner-avis{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 866px ) {
+    .image-avis{
+        display: none;
+    }
+    
+    /* .logo-partenaires{
+        flex-wrap: wrap;
+    } */
+    
+    #logo-ecobank{
+        display: none;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 836px ) {
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux{
+        display: none;
+    }
+
+    .conteneur-bouton_recherche a{
+        top: 50px;
+    }
+
+    .container-section-deux {
+        display: flex;
+        justify-content: center;
+        margin-top: 17px;
+        position: relative;
+        top: 24px;
+        left: 0px;
+    }
+}
+
 
 @media screen and (max-width: 821px ) {
     #logo{
@@ -1153,6 +1255,111 @@ hr{
     }
 }
 
+@media screen and (max-width: 739px ) {
+    form.example button{
+        width: 34px;
+    }
+
+    .container-section-deux {
+        display: block;
+        top: 24px;
+        left: 0;
+        position: relative;
+        margin-left: 236px;
+    }
+
+    .search-bar {
+        bottom: 24px;
+    }
+
+    .place-marker {
+        right: 100px;
+    }
+
+}
+
+@media screen and (max-width: 631px ) {
+    .div-forulaire{
+        display: none;
+    }
+
+    .container-section-deux{
+        padding-top: 31px;
+    }
+}
+
+@media screen and (max-width: 619px ) {
+    .search-bar button, .example button{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 619px ) {
+    .container-section_trois{
+        margin-top: 61px;
+    }
+
+    .text-avec_assigame{
+        bottom: 185px;   
+    }
+
+    .bul {
+        width: 278px;
+    }
+
+    .bul-commentaire {
+        width: 210px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .bul-commentaire-trois {
+        width: 210px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .carte-maps {
+        max-width: 314px;
+    }
+
+    .Retrouvez-nous-sur {
+        display: none;
+    }
+
+    .Togocom, .text-avis-pertinant, .bloc-footer_deux{
+        display: none;
+    }
+
+    #avis{
+        margin-top: 144px;
+    }
+
+    .bloc-footer_global-un{
+        padding-left: 125px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .container-section-deux{
+        margin-left: 151px;
+    }
+
+}
+
+
+@media screen and (max-width: 530px) {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 429px) {
+    margin-left: 16px;
+    margin-top: 5px;
+
+}
+
+
 
 @media screen and (max-width: 426px ) {
     header{
@@ -1179,8 +1386,10 @@ hr{
         display: none;
     }
 
-    .container-section-deux{
+    .container-section-deux {
+        margin-left: 1px;
         display: block;
+        top: 108px;
     }
 
     .select-categories{
@@ -1217,7 +1426,7 @@ hr{
 
     .rectangle-blanc {
         position: relative;
-        max-width: 489px;
+        max-width: 420px;
         height: 243px;
         bottom: 245px;
         left: 0px;
@@ -1235,12 +1444,18 @@ hr{
         .text-avec_assigame {
             position: relative;
             text-align: justify;
-            bottom: 308px;
+            bottom: 216px;
             padding: 0 18px;
+            max-width: 390px;
+        }
+
+        .section-trois {
+            margin-top: 202px;
         }
 
         .section_deux {
             height: 782px;
+            max-width: 420px;
         }
 
         #avis {
@@ -1269,6 +1484,7 @@ hr{
 
         .container-section_trois{
             height: 532px;
+            max-width: 414px;
         }
 
         #lien-avis {
@@ -1279,12 +1495,14 @@ hr{
         .title-nos-partenaires {
             padding: 35px 0 70px 0;
             margin-left: 106px;
+            max-width: 400px;
         }
 
         .none{display: none;}
 
         .logo-partenaires{
             display: block;
+            max-width: 400px;
         }
 
         #logo-cercle_or {
@@ -1306,6 +1524,7 @@ hr{
 
         #title-localisation {
             padding: 23px 0 33px 0;
+            max-width: 400px;
         }
 
         .carte-maps{
@@ -1325,12 +1544,13 @@ hr{
             font-size: 10px;
         }
 
-        .bloc-footer_global-deux_deux{
-
+        .bloc-footer_global-deux_deux div{
+            margin-left: 69px;
         }
 
         .bloc-footer_deux {
-            left: 80px;
+            display: block;
+            right: 38px;
         }
 
         .Retrouvez-nous-sur {
@@ -1339,14 +1559,96 @@ hr{
         }
 
         .dernier-hr {
-            width: 423px;
+            max-width: 423px;
             margin: 0 auto;
         }
 
         .bouton-prix{
             display: none;
         }
+
+        .image-Gozem{
+            position: relative;
+            bottom: 44px;
+        }
+
+        .grand-bock-bul_commentaire {
+            position: relative;
+            bottom: 48px;
+            right: 38px;
+        }
+
+        .bul-commentaire-deux{
+            
+        }
+
+        .container-section-un {
+            max-width: 372px;
+        }
+
+        .container-localisation{
+            max-width: 400px;
+        }
+
+        .bloc-footer_global-un{
+            max-width: 400px;
+        }
+
+        #logo{
+            position: relative;
+            right: 24px;
+            margin-right: 34px;
+        }
 }
 
 
+@media screen and (max-width: 376px ) {
+    .header-add {
+        width: 174px;
+    }
 
+    .bloc-footer_deux {
+        right: 63px;
+    }
+}
+
+
+@media screen and (max-width: 321px ) {
+    .header-add{
+        display: none;
+    }
+
+    #logo{
+        margin-right: 34px;
+        left: 25px;
+        width: 161px;
+    }
+
+    .container-section-un, #Déposer-une-annonce, .container-section_trois, .title-nos-partenaires, .logo-partenaires{
+        display: none;
+    }
+
+    .container-localisation {
+        max-width: 453px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .carte-maps{
+        width: 300px;
+    }
+
+    .bloc-footer_deux {
+        right: 63px;
+        font-size: 10px;
+    }
+
+    .bloc-footer_global-deux_deux div{
+        margin-left: 47px;
+    }
+
+    .container-contactez-nous {
+        width: 313px;
+    }
+    
+}
