@@ -887,7 +887,7 @@ input:checked + .slider::before{
 .field{
     position: relative;
     height: 80px;
-    width: 152px;
+    width: 305px;
     padding: 16px 0 8px 0;
     margin-bottom: 15px;
 }
@@ -931,7 +931,7 @@ input:checked + .slider::before{
 
     content: '';  
     height: 2px;
-    width: 100%;
+    width: 303px;
     /* les positinnement aussi a chercher */
     position: absolute;
 
@@ -1183,7 +1183,7 @@ hr{
     }
 
     .header-right-center, .bloc-footer_trois, .bouton-donner-avis{
-        display: none;
+        isplay: none;
     }
     
 }
@@ -1365,13 +1365,31 @@ hr{
     header{
         max-height: 60px;
         padding: 0 6%;
+        width: 440px;
+    }
+
+    .header-add{
+        position: relative;
+        left: 17px;
+    }
+
+    h1{position: relative;
+        left: 11px;
+    }
+
+    .search-bar button{
+        display: block;
+    }
+
+    form.example input {
+        width: 258px;
     }
 
     .div-forulaire{
         display: none;
     }
 
-    .div-forulaire {
+    .div-forulaire, .place-marker {
         display: none;
     }
 
@@ -1391,6 +1409,7 @@ hr{
         display: block;
         top: 108px;
     }
+    
 
     .select-categories{
         margin: 22px 69px;
@@ -1399,7 +1418,7 @@ hr{
     }
 
     .search-bar{
-        left: 42px;
+        left: 22px;
         bottom: 83px;
     }
 
@@ -1426,7 +1445,7 @@ hr{
 
     .rectangle-blanc {
         position: relative;
-        max-width: 420px;
+        max-width: 440px;
         height: 243px;
         bottom: 245px;
         left: 0px;
@@ -1455,11 +1474,12 @@ hr{
 
         .section_deux {
             height: 782px;
-            max-width: 420px;
+            width: 440px;
         }
 
         #avis {
             padding: 9px 0 17px 0;
+            margin-bottom: 22px;
         }
 
         .bul {
@@ -1484,7 +1504,7 @@ hr{
 
         .container-section_trois{
             height: 532px;
-            max-width: 414px;
+            width: 440px;
         }
 
         #lien-avis {
@@ -1584,10 +1604,12 @@ hr{
 
         .container-section-un {
             max-width: 372px;
+            margin-left: 34px;
+            height: 166px;
         }
 
         .container-localisation{
-            max-width: 400px;
+            width: 440px;
         }
 
         .bloc-footer_global-un{
@@ -1598,6 +1620,19 @@ hr{
             position: relative;
             right: 24px;
             margin-right: 34px;
+        }
+
+        .bloc-footer{
+            width: 440px;
+        }
+
+        .field::after {
+            content: '';
+            height: 2px;
+            width: 159px;
+            position: absolute;
+            bottom: 30px;
+            background-color: #85B940;
         }
 }
 
@@ -1610,6 +1645,26 @@ hr{
     .bloc-footer_deux {
         right: 63px;
     }
+
+    h1{
+        left: 29px;
+    }
+
+    .container-section-un{
+        width: 372px;
+    }
+
+    titre-rejoindre-communaute{
+        left: 10px;
+    }
+
+    .container-contactez-nous{
+        margin-left: 31px;
+    }
+
+    #logo-cercle_or{
+        margin-left: 41px;
+    }
 }
 
 
@@ -1620,8 +1675,12 @@ hr{
 
     #logo{
         margin-right: 34px;
-        left: 25px;
+        left: 85px;
         width: 161px;
+    }
+
+    h1{
+        left: 52px;
     }
 
     .container-section-un, #Déposer-une-annonce, .container-section_trois, .title-nos-partenaires, .logo-partenaires{
@@ -1649,6 +1708,16 @@ hr{
 
     .container-contactez-nous {
         width: 313px;
+        margin-left: 65px;
+    }
+
+    .field::after {
+        content: '';
+        height: 2px;
+        width: 127px;
+        position: absolute;
+        bottom: 30px;
+        background-color: #85B940;
     }
     
 }
