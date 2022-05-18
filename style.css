@@ -1421,6 +1421,9 @@ hr{
         top: 108px;
     }
     
+    .titre-rejoindre-communaute{
+        padding-left: 15px;
+    }
 
     .select-categories{
         margin: 22px 69px;
@@ -1665,8 +1668,8 @@ hr{
         width: 372px;
     }
 
-    titre-rejoindre-communaute{
-        left: 10px;
+    .titre-rejoindre-communaute{
+        padding-left: 15px;
     }
 
     .container-contactez-nous{
@@ -1713,6 +1716,10 @@ hr{
         font-size: 10px;
     }
 
+    .titre-rejoindre-communaute {
+        padding-left: 12px;
+    }
+
     .bloc-footer_global-deux_deux div{
         margin-left: 47px;
     }
@@ -1720,6 +1727,8 @@ hr{
     .container-contactez-nous {
         width: 313px;
         margin-left: 65px;
+        position: relative;
+        bottom: 40px;
     }
 
     .field::after {
@@ -1731,4 +1740,11 @@ hr{
         background-color: #85B940;
     }
     
+    .bloc-footer_global-deux_deux{
+        left: 50px;
+    }
+
+    .text-avec_assigame{
+        bottom: 107px;
+    }
 }
