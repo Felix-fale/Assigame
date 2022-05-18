@@ -1149,6 +1149,12 @@ hr{
     }
 }
 
+@media screen and (max-width: 1441px ){
+    body{
+        background-size: 1441px 650px;
+    }
+}
+
 @media screen and (max-width: 1185px ) {
     .container-header{
         padding: 0 21px;
