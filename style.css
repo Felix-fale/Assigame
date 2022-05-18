@@ -14,8 +14,11 @@ ul{
 body{
     background-color: #FAFAFA;
     font-family: 'Open Sans', sans-serif;
+
+    background-image: url(image/city-night-tokyo-city-lights-wallpaper-preview.jpg);
     
-    
+    background-size: 1440px 650px;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -24,7 +27,7 @@ header{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-main{
+.container-header{
     margin: 0 auto;
     max-width: 1180px;
     display: flex;
@@ -120,18 +123,13 @@ h1{
     font-size: 27px;
     font-weight: 700;
     text-align: center;
-    margin: 26px 0;
-    color: #336699;
     margin: 48px 0;
-
-}
-
-h1 {
-
-    color: #336699;
+    color: #A8FF35;
+    background-color: rgba(0, 0, 0, 0.5);;    
     animation-name: example;
     animation-duration: 10s;
-  }
+}
+
   
   @keyframes example {
     0%   {color: red;}
@@ -1144,8 +1142,15 @@ hr{
 
 /*         partie responsivité      */
 
+
+@media screen and (max-width: 2561px ){
+    body{
+        background-size: 2600px 650px;
+    }
+}
+
 @media screen and (max-width: 1185px ) {
-    .header-main{
+    .container-header{
         padding: 0 21px;
     }
 
