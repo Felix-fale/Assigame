@@ -15,7 +15,7 @@ body{
     background-color: #FAFAFA;
     font-family: 'Open Sans', sans-serif;
 
-    background-image: url(image/city-night-tokyo-city-lights-wallpaper-preview.jpg);
+    background-image: url(image/bg-image_deux.jpg);
     
     background-size: 1440px 650px;
     background-repeat: no-repeat;
@@ -1352,6 +1352,12 @@ hr{
     }
 }
 
+@media screen and (max-width: 610px ){
+    .field::after{
+        width: 217px;
+    }
+}
+
 @media screen and (max-width: 531px) {
     .container-section-deux{
         margin-left: 151px;
@@ -1651,6 +1657,20 @@ hr{
 }
 
 
+@media screen and (max-width: 442px) {
+    .container-contactez-nous{
+        position: relative;
+        left: 17px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .container-contactez-nous{
+        margin-left: 0;
+    }
+}
+
+
 @media screen and (max-width: 376px ) {
     .header-add {
         width: 174px;
@@ -1678,6 +1698,12 @@ hr{
 
     #logo-cercle_or{
         margin-left: 41px;
+    }
+}
+
+@media screen and (max-width: 366px ){
+    .contenaire-nos_partenaires{
+        display: none;
     }
 }
 
