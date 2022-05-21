@@ -167,12 +167,12 @@ label div{
     height: 17px;
     background-color:#ffffff;
     border-radius: 50%;
-    ransition: all 0.3 ease;
+    transition: all 0.3 ease;
 }
 
 .class-input:checked+label div{
     background-color: #85B940;
-    ransition: all 0.3 ease;
+    transition: all 0.3 ease;
 }
 
 .class-input{
