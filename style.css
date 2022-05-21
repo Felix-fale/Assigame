@@ -17,7 +17,7 @@ body{
 
     background-image: url(image/bg-image_deux-min.jpg);
     
-    background-size: 1440px 650px;
+    background-size: max-width="1460px"  650px;
     background-repeat: no-repeat;
 }
 
@@ -97,7 +97,7 @@ header a:hover{
 }
 
 .header-add{
-    width: 224px;
+    max-width: 224px;
     height: 46px;
     background: #85B940;
     border-radius: 7px;
@@ -408,7 +408,7 @@ form.example::after {
     background-color: white;
     transition: 0.4s;
     border-radius: 50px;
-    order: 1px solid rgba(1, 8, 16, 0.4);
+    border: 1px solid rgba(1, 8, 16, 0.4);
 }
 
 input:checked + .slider{
@@ -446,6 +446,7 @@ input:checked + .slider::before{
     display: flex;
     bottom: 57px;
     left: 125px;
+    width: 427px;
 }
 
 /*                   2em section                */
@@ -1173,6 +1174,12 @@ hr{
     }
 }
 
+@media screen and (max-width: 1280px ){
+    body{
+        background-size: 1281px 650px;
+    }
+}
+
 @media screen and (max-width: 1036px ) {
     .select-categories{
         display: none;
@@ -1196,6 +1203,16 @@ hr{
         isplay: none;
     }
     
+}
+
+@media screen and (max-width: 930px ){
+    header {
+        height: 87px;
+    }
+
+    #logo {
+        height: 87px;
+    }
 }
 
 
@@ -1298,14 +1315,24 @@ hr{
     }
 }
 
-@media screen and (max-width: 619px ) {
-    .search-bar button, .example button{
+@media screen and (max-width: 700px ){
+    .bloc-footer_trois{
         display: none;
     }
+
+    .bloc-footer_un{
+        left: 0;
+    }
+
+    
 }
 
 
 @media screen and (max-width: 619px ) {
+    .search-bar button, .example button{
+        display: none;
+    }
+
     .container-section_trois{
         margin-top: 61px;
     }
@@ -1355,6 +1382,13 @@ hr{
     .field::after{
         width: 217px;
     }
+}
+
+@media screen and (max-width: 599px) {
+    .bloc-footer_deux {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 531px) {
@@ -1617,10 +1651,6 @@ hr{
             right: 38px;
         }
 
-        .bul-commentaire-deux{
-            
-        }
-
         .container-section-un {
             max-width: 372px;
             margin-left: 34px;
@@ -1663,9 +1693,9 @@ hr{
     }
 }
 
-@media screen and (max-width: 375px){
-    .container-contactez-nous{
-        margin-left: 0;
+@media screen and (max-width: 427px){
+    body{
+        background-size: 447px 650px;
     }
 }
 
@@ -1692,7 +1722,7 @@ hr{
     }
 
     .container-contactez-nous{
-        margin-left: 31px;
+        margin-left: 15px;
     }
 
     #logo-cercle_or{
@@ -1749,9 +1779,14 @@ hr{
         margin-left: 47px;
     }
 
+    .rectangle-blanc_container-text {
+        position: relative;
+        top: 40px;
+    }
+
     .container-contactez-nous {
         width: 313px;
-        margin-left: 65px;
+        margin-left: 49px;
         position: relative;
         bottom: 40px;
     }
@@ -1770,6 +1805,8 @@ hr{
     }
 
     .text-avec_assigame{
-        bottom: 107px;
+        bottom: 237px;
+        padding: 0;
+        max-width: 420px;
     }
 }
