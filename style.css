@@ -405,11 +405,10 @@ form.example::after {
     height: 30px;
     width: 30px;
     left: 1px;
-    bottom: px;
     background-color: white;
     transition: 0.4s;
     border-radius: 50px;
-    border: 1px solid rgba(1, 8, 16, 0.4);
+    order: 1px solid rgba(1, 8, 16, 0.4);
 }
 
 input:checked + .slider{
@@ -446,7 +445,7 @@ input:checked + .slider::before{
     position: relative;
     display: flex;
     bottom: 57px;
-    padding-left: 125px;
+    left: 125px;
 }
 
 /*                   2em section                */
