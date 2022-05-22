@@ -766,7 +766,7 @@ input:checked + .slider::before{
     font-weight: 700;
     font-size: 17px;
     color: #ED3B3B;
-    top: 21px;
+    top: 3px;
 }
 
 /*      4em section       */
