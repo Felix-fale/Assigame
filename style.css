@@ -162,7 +162,7 @@ h1{
     border-radius: 50%;
 }
 
-label div{
+label span{
     width: 18px;
     height: 17px;
     background-color:#ffffff;
@@ -170,7 +170,7 @@ label div{
     transition: all 0.3 ease;
 }
 
-.class-input:checked+label div{
+.class-input:checked+label span{
     background-color: #85B940;
     transition: all 0.3 ease;
 }
