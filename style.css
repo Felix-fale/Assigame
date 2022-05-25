@@ -15,7 +15,7 @@ body{
     background-color: #FAFAFA;
     font-family: 'Open Sans', sans-serif;
 
-    ackground-image: url(image/bg-image_deux-min.jpg);
+    background-image: url(image/bg-image_deux-min.jpg);
     
     background-size: max-width="1460px"  650px;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ h1{
     text-align: center;
     margin: 48px 0;
     color: #A8FF35;
-    ackground-color: rgba(0, 0, 0, 0.5);;    
+    background-color: rgba(0, 0, 0, 0.5);;    
     animation-name: example;
     animation-duration: 10s;
 }
