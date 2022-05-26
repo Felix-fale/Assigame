@@ -455,11 +455,6 @@ input:checked + .slider::before{
 
 /* 1er bloc conteneur section deux*/
 
-.ul-top-categorie{
-    isplay: flex;
-    justify-content: space-between;
-}
-
 .text-top-categorie{
     position: relative;
     bottom: 27px;
