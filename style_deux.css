@@ -1,0 +1,697 @@
+/*         partie responsivité      */
+
+
+@media screen and (max-width: 2561px ){
+    body{
+        background-size: 2600px 650px;
+    }
+}
+
+@media screen and (max-width: 1441px ){
+    body{
+        background-size: 1441px 650px;
+    }
+}
+
+@media screen and (max-width: 1207px ){
+    .place-marker{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1185px ) {
+    .container-header{
+        padding: 0 21px;
+    }
+
+}
+
+@media screen and (max-width: 1162px ) {
+    #img-avis {
+        left: 100px;
+        top: 43px;
+        max-width: 260px;
+    }
+
+    .carte-maps{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1280px ){
+    body{
+        background-size: 1281px 650px;
+    }
+}
+
+@media screen and (max-width: 1036px ) {
+    .select-categories{
+        display: none;
+    }
+
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux, .bloc-footer_quatre{
+        display: none;
+    }
+
+    .conteneur-bouton_recherche a {
+        /* bottom: 3px; */
+        top: 45px;
+    }
+
+    .container-section-deux {
+        position: relative;
+        top: 20px;
+    }
+    
+    h1{
+        margin: 9px 0;
+    }
+}
+
+@media screen and (max-width: 930px ){
+    header {
+        height: 87px;
+    }
+
+    #logo {
+        height: 87px;
+    }
+}
+
+
+@media screen and (max-width: 866px ) {
+    .image-avis{
+        display: none;
+    }
+    
+    /* .logo-partenaires{
+        flex-wrap: wrap;
+    } */
+    
+    #logo-ecobank{
+        display: none;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 836px ) {
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux{
+        display: none;
+    }
+
+    .conteneur-bouton_recherche a{
+        top: 50px;
+    }
+
+    .container-section-deux {
+        display: flex;
+        justify-content: center;
+        margin-top: 17px;
+        position: relative;
+        top: 24px;
+        left: 0px;
+    }
+
+    .place-marker{
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 821px ) {
+    #logo{
+        width: 100px;
+        height: 60px;
+        
+    }
+
+    header{
+        height: 60px;
+        padding: 0 10%;
+    }
+
+    .header-right-center{
+        display: none;
+    }
+
+    .header-right-center img{
+        display: none;
+    }
+
+    
+
+    h1{
+        margin: 10px 0;
+    }
+
+    .search-bar{
+        right: 6px;
+    }
+}
+
+@media screen and (max-width: 769px ){
+    .search-bar{
+        right: 6px;
+    }
+
+    .section_deux {
+        margin-top: 41px;
+    }
+}
+
+@media screen and (max-width: 739px ) {
+    form.example button{
+        width: 34px;
+    }
+
+    .container-section-deux {
+        display: block;
+        top: 24px;
+        left: 0;
+        position: relative;
+        margin-left: 200px;
+    }
+
+    .search-bar {
+        bottom: 24px;
+        right: 0;
+    }
+
+    .place-marker {
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 631px ) {
+    .div-forulaire{
+        display: none;
+    }
+
+    .container-section-deux{
+        padding-top: 31px;
+    }
+}
+
+@media screen and (max-width: 700px ){
+    .bloc-footer_trois{
+        display: none;
+    }
+
+    .bloc-footer_un{
+        left: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 619px ) {
+    .search-bar button, .example button{
+        display: none;
+    }
+
+    .container-section-deux {
+        margin-left: 136px;
+    }
+
+    .container-section_trois{
+        margin-top: 61px;
+    }
+
+    .text-avec_assigame{
+        bottom: 185px;   
+    }
+
+    .bul {
+        width: 278px;
+    }
+
+    .bul-commentaire {
+        width: 210px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .bul-commentaire-trois {
+        width: 210px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .carte-maps {
+        max-width: 314px;
+    }
+
+    .Retrouvez-nous-sur {
+        display: none;
+    }
+
+    .Togocom, .text-avis-pertinant, .bloc-footer_deux{
+        display: none;
+    }
+
+    #avis{
+        margin-top: 144px;
+    }
+
+    .bloc-footer_global-un{
+        padding-left: 125px;
+    }
+}
+
+@media screen and (max-width: 610px ){
+    .field::after{
+        width: 217px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .bloc-footer_deux {
+        display: none;
+    }
+
+    .titre-rejoindre-communaute {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .container-section-deux{
+        margin-left: 151px;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    .container-section-deux {
+        margin-left: 104px;
+    }
+}
+
+@media screen and (max-width: 445px ){
+    .container-contactez-nous
+}
+
+@media screen and (max-width: 426px ) {
+    header{
+        max-height: 60px;
+        padding: 0 6%;
+        width: 440px;
+    }
+
+    .header-add{
+        position: relative;
+        left: 17px;
+    }
+
+    h1{position: relative;
+        left: 11px;
+    }
+
+    .search-bar button{
+        display: block;
+    }
+
+    form.example input {
+        width: 258px;
+    }
+
+    .div-forulaire{
+        display: none;
+    }
+
+    .div-forulaire, .place-marker {
+        display: none;
+    }
+
+    .bouton-prix, 
+    element.style {
+    }
+    #img-avis img{
+        display: none;
+    }
+
+    .voir-egalement, .conteneur-bouton_recherche a, .bouton-on_off{
+        display: none;
+    }
+
+    .container-section-deux {
+        margin-left: 1px;
+        display: block;
+        top: 108px;
+    }
+    
+    .titre-rejoindre-communaute{
+        padding-left: 15px;
+    }
+
+    .select-categories{
+        margin: 22px 69px;
+        width: 377px;
+        height: 45px;
+    }
+
+    .search-bar{
+        left: 22px;
+        bottom: 83px;
+    }
+
+    .place-marker{
+        right: 12px;
+        bottom: 50px;
+    }
+
+    .section_deux {
+        width: 100%;
+        height: 911px;
+        margin-top: 31px;
+    }
+
+    .titre-categories {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        color: #336699;
+        padding-top: 11px;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    .rectangle-blanc {
+        position: relative;
+        max-width: 440px;
+        height: 243px;
+        bottom: 245px;
+        left: 0px;
+        line-height: 20px;
+        text-align: justify;
+        padding: 32px 64px 39px 38px;}
+
+        #Déposer-une-annonce {
+            width: 235px;
+            height: 44px;
+            margin-top: 28px;
+            margin-left: 57px;
+        }
+
+        .text-avec_assigame {
+            position: relative;
+            text-align: justify;
+            bottom: 216px;
+            padding: 0 18px;
+            max-width: 390px;
+        }
+
+        .section-trois {
+            margin-top: 202px;
+        }
+
+        .section_deux {
+            height: 782px;
+            width: 440px;
+        }
+
+        #avis {
+            padding: 9px 0 17px 0;
+            margin-bottom: 22px;
+        }
+
+        .bul {
+            width: 278px;
+        }
+
+        .bul-commentaire {
+            width: 210px;
+            font-size: 12px;
+            bottom: 70px;
+        }
+
+        .bul-trois{
+            width: 278px;
+        }
+
+        .bul-commentaire-trois {
+            width: 210px;
+            font-size: 12px;
+            bottom: 70px;
+        }
+
+        .container-section_trois{
+            height: 532px;
+            width: 440px;
+        }
+
+        #lien-avis {
+            position: relative;
+            top: 12px;
+        }
+
+        .title-nos-partenaires {
+            padding: 35px 0 70px 0;
+            margin-left: 106px;
+            max-width: 400px;
+        }
+
+        .none{display: none;}
+
+        .logo-partenaires{
+            display: block;
+            max-width: 400px;
+        }
+
+        #logo-cercle_or {
+            margin-left: 32px;
+            position: relative;
+            bottom: 20px;
+        }
+
+        .image-deux{
+            position: relative;
+            bottom: 43px;
+            left: 35px;
+        }
+
+        .contenaire-nos_partenaires {
+            width: 100%;
+            height: 290px;
+        }
+
+        #title-localisation {
+            padding: 23px 0 33px 0;
+            max-width: 400px;
+        }
+
+        .carte-maps{
+            max-width: 350px;
+        }
+
+        .container-contactez-nous {
+            width: 376px;
+            height: 508px;
+        }
+
+        .bloc-footer_un_trois_quatre, .bloc-footer_global-deux_un {
+            display: none;
+        }
+
+        .bloc-footer_global-deux_un{
+            font-size: 10px;
+        }
+
+        .bloc-footer_global-deux_deux div{
+            margin-left: 69px;
+        }
+
+        .bloc-footer_deux {
+            display: block;
+            right: 38px;
+        }
+
+        .Retrouvez-nous-sur {
+            margin: 0 45px;
+            margin-top: 15px;
+        }
+
+        .dernier-hr {
+            max-width: 423px;
+            margin: 0 auto;
+        }
+
+        .bouton-prix{
+            display: none;
+        }
+
+        .image-Gozem{
+            position: relative;
+            bottom: 44px;
+        }
+
+        .grand-bock-bul_commentaire {
+            position: relative;
+            bottom: 48px;
+            right: 38px;
+        }
+
+        .container-section-un {
+            max-width: 372px;
+            margin-left: 34px;
+            height: 166px;
+        }
+
+        .container-localisation{
+            width: 440px;
+        }
+
+        .bloc-footer_global-un{
+            max-width: 400px;
+        }
+
+        #logo{
+            position: relative;
+            right: 24px;
+            margin-right: 34px;
+        }
+
+        .bloc-footer{
+            width: 440px;
+        }
+
+        .field::after {
+            content: '';
+            height: 2px;
+            width: 159px;
+            position: absolute;
+            bottom: 30px;
+            background-color: #85B940;
+        }
+}
+
+@media screen and (max-width: 442px) {
+    .container-contactez-nous{
+        position: relative;
+        left: 12px;
+    }
+}
+
+@media screen and (max-width: 427px){
+    body{
+        background-size: 447px 650px;
+    }
+}
+
+
+@media screen and (max-width: 376px ) {
+    .header-add {
+        width: 174px;
+    }
+
+    .bloc-footer_deux {
+        right: 63px;
+    }
+
+    h1{
+        left: 29px;
+    }
+
+    .container-section-un{
+        width: 372px;
+    }
+
+    .titre-rejoindre-communaute{
+        padding-left: 15px;
+    }
+
+    .container-contactez-nous{
+        margin-left: 24px;
+    }
+
+    #logo-cercle_or{
+        margin-left: 41px;
+    }
+}
+
+@media screen and (max-width: 366px ){
+    .contenaire-nos_partenaires{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 321px ) {
+
+    #logo{
+        margin-right: 34px;
+        left: 85px;
+        width: 161px;
+    }
+
+    h1{
+        left: 52px;
+    }
+
+    .header-add, .container-section-un, #Déposer-une-annonce, .container-section_trois, .title-nos-partenaires, .logo-partenaires{
+        display: none;
+    }
+
+    .container-localisation {
+        max-width: 453px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .carte-maps{
+        width: 300px;
+    }
+
+    .bloc-footer_deux {
+        right: 63px;
+        font-size: 10px;
+    }
+
+    .titre-rejoindre-communaute {
+        padding-left: 12px;
+    }
+
+    .bloc-footer_global-deux_deux div{
+        margin-left: 47px;
+    }
+
+    .rectangle-blanc_container-text {
+        position: relative;
+        top: 40px;
+    }
+
+    .container-contactez-nous {
+        width: 313px;
+        margin-left: 49px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .section_deux {
+        margin-top: 0px;
+    }
+
+    .field::after {
+        content: '';
+        height: 2px;
+        width: 127px;
+        position: absolute;
+        bottom: 30px;
+        background-color: #85B940;
+    }
+    
+    .container-localisation {
+        height: 571px;
+    }
+
+    .bloc-footer_global-deux_deux{
+        left: 50px;
+    }
+
+    .text-avec_assigame{
+        bottom: 237px;
+        padding: 0;
+        max-width: 420px;
+    }
+}
