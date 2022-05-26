@@ -341,6 +341,7 @@ form.example::after {
 
 .ul-top-categorie li{
     margin-right: 10px;
+    visibility: visible;
 }
 
 .bouton-on_off{
@@ -443,10 +444,6 @@ input:checked + .slider::before{
     margin-top: 100px;
 }
 
-/* .main-carousel{
-    isplay: block;
-} */
-
 .container-section_deux{
     max-width: 1180px;
     margin: 0 auto;
@@ -462,6 +459,7 @@ input:checked + .slider::before{
     background: #00000080;
     border-radius: 0px 0px 7px 7px;
     color: white;
+    max-width: 200px;
 }
 
 /* 2em bloc conteneur section deux*/
