@@ -1298,7 +1298,6 @@ hr{
     .place-marker {
         right: 100px;
     }
-
 }
 
 @media screen and (max-width: 631px ) {
@@ -1322,7 +1321,6 @@ hr{
 
     
 }
-
 
 @media screen and (max-width: 619px ) {
     .search-bar button, .example button{
@@ -1408,8 +1406,6 @@ hr{
 @media screen and (max-width: 445px ){
     .container-contactez-nous
 }
-
-
 
 @media screen and (max-width: 426px ) {
     header{
@@ -1684,7 +1680,6 @@ hr{
             background-color: #85B940;
         }
 }
-
 
 @media screen and (max-width: 442px) {
     .container-contactez-nous{
