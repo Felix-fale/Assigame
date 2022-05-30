@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -342,10 +341,10 @@ form.example::after {
 
 /* niveau 4 de la section deux */
 
-.ul-top-categorie li{
+/* .ul-top-categorie li{
     margin-right: 10px;
     visibility: visible;
-}
+} */
 
 .bouton-on_off{
     position: relative;
