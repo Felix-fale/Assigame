@@ -41,13 +41,7 @@ header{
     margin-right: 32px;
 }
 
-#add{
-    margin-top: 6px;
-}
 
-.deposer-une-annonce{
-    color: #ffffff;
-}
 
 .header-center a{
     font-size: 14px;
@@ -112,6 +106,7 @@ header a:hover{
 
 .add{
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgb(21, 21, 21);
 }
 /* Balise h1 */
 
